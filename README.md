@@ -8,7 +8,7 @@
 wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip"
 unzip JetBrainsMono.zip
 rm JetBrainsMono.zip
-mv JetBrains*.ttf /usr/share/fonts/
+sudo mv JetBrains*.ttf /usr/share/fonts/
 fc-cache -f -v
 ```
 
