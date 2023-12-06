@@ -1,8 +1,33 @@
-# AstroNvim User Configuration Example
-
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+# My AstroNvim Conf
 
 ## 🛠️ Installation
+
+1. Install a JetBrainsMono nerd font
+
+```bash
+wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip"
+unzip JetBrainsMono.zip
+rm JetBrainsMono.zip
+mv JetBrains*.ttf /usr/share/fonts/
+fc-cache -f -v
+```
+
+verify font installation 
+```bash
+fc-list
+```
+
+2. Install nodejs
+```bash
+sudo dnf install nodejs
+```
+
+3. install neovim
+```bash
+sudo install neovim
+```
+
+4. follow the below steps:
 
 #### Make a backup of your current nvim and shared folder
 
